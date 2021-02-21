@@ -1,0 +1,346 @@
+/* Start color */
+.color {
+    color: #55efc4;
+    color: #00b894;
+    color: #81ecec;
+    color: #00cec9;
+    color: #74b9ff;
+    color: #0984e3;
+    color: #a29bfe;
+    color: #6c5ce7;
+    color: #dfe6e9;
+    color: #b2bec3;
+    color: #636e72;
+    color: #2d3436;
+    color: #ffeaa7;
+    color: #fdcb6e;
+    color: #fab1a0;
+    color: #ff7675;
+    color: #e17055;
+    color: #d63031;
+    color: #fd79a8;
+    color: #e84393;
+    color: #d8e2dc;
+    color: #a9d6e5;
+    color: #89c2d9;
+    color: #61a5c2;
+    color: #468faf;
+    color: #2c7da0;
+    color: #2a6f97;
+    color: #014f86;
+    color: #01497c;
+    color: #1d3557;
+    color: #264653;
+    color: #80ffdb;
+    color: #72efdd;
+    color: #d8f3dc;
+    color: #b7e4c7;
+    color: #95d5b2;
+    color: #74c69d;
+    color: #52b788;
+    color: #40916c;
+    color: #2d6a4f;
+    color: #1b4332;
+    color: #0099e5;
+    color: #ff4c4c;
+    color: #34bf49;
+    color: #00a98f;
+    color: #be0027;
+    color: #cf8d2e;
+    color: #e4e932;
+    color: #2c9f45;
+    color: #371777;
+    color: #52325d;
+    color: #511378;
+    color: #ff0000;
+    color: #00a4e4;
+    color: #fefefe;
+    color: #7d3f98;
+    color: #caccd1;
+    color: #52565e;
+    color: #1cc7d0;
+    color: #222;
+    color: #9f9fa3;
+    color: #d7d7d8;
+    color: #848a8c;
+    color: #01cd74;
+    color: #1aafd0;
+    color: #6a67ce;
+    color: #a5acaf;
+    color: #a5a9ab;
+    color: #bfbfbf;
+    color: #f50537;
+    color: #d0d2d3;
+    color: #ff7800;
+    color: #00395d;
+    color: #2a5934;
+    color: #1769ff;
+    color: #666;
+    color: #f2f6fa;
+    color: #cecece;
+    color: #aca095;
+    color: #a7a9ac;
+    color: #ced7df;
+    color: #b0a696;
+    color: #86898c;
+    color: #ffc2e5;
+    color: #00c7f2;
+    color: #f8dfc2;
+    color: #c9c9c9;
+    color: #005be2;
+    color: #ef5956;
+    color: #444444;
+    color: #001a57;
+    color: #918978;
+    color: #131137;
+    color: #2c2b2b;
+    color: #efecea;
+
+}
+
+.back-l-g {
+    background: linear-gradient(147deg, rgb(243, 245, 95), rgb(36, 126, 209));
+}
+
+.back-l-g1 {
+    background: linear-gradient(147deg, rgb(36, 126, 209), rgb(243, 245, 95));
+}
+
+
+
+/* End Color */
+/* علشان اواسط العنصر فى الناص  */
+.slider .carousel-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left
+}
+
+/* علشان الخالى العناصر فى الناص  */
+@media(max-width:576px) {
+    .slider .carousel-inner {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+/* علشان اخالى العنصر فى النص و هو فى الوضع المطلق */
+#main-slider .carousel-control-prev,
+#main-slider .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    background-color: #3498db;
+    color: #fff;
+    display: inline-block;
+    margin-top: -25px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 5;
+}
+
+/*************************/
+/* تنسيقات الكارزاى البوت استراب الفارجان 4 */
+
+.carousel .carousel-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+}
+
+
+.carousel .slide-margin {
+    margin-top: 140px;
+}
+
+#main-slider .carousel h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+/* الاسهم اللى على الشمال و ايمين */
+#main-slider .carousel .btn-slide {
+    padding: 0 30px;
+    line-height: 42px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid #3498db;
+}
+
+#main-slider .carousel .btn-slide.white {
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    background: rgba(255, 255, 255, 0.26);
+    color: #fff;
+}
+
+#main-slider .carousel .slider-img {
+    text-align: right;
+    position: absolute;
+}
+
+#main-slider .carousel .item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    /*height: 730px;*/
+    -webkit-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#main-slider .carousel .item:first-child {
+    top: auto;
+    position: relative;
+}
+
+#main-slider .carousel .item.active {
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+
+/* الدفات اللى بيظهار فيه العناصر  */
+
+#main-slider .carousel-item {
+    background-size: cover;
+}
+
+#main-slider .carousel-one {
+    background-image: url('../images/slider/bg1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#main-slider .carousel-tow {
+    background-image: url('../images/slider/bg2.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#main-slider .carousel-three {
+    background-image: url('../images/slider/bg3.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*  */
+#main-slider .carousel-control-prev,
+#main-slider .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    background-color: #3498db;
+    color: #fff;
+    display: inline-block;
+    margin-top: -25px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 5;
+}
+
+#main-slider .carousel-control-prev:hover,
+#main-slider .carousel-control-next:hover {
+    background-color: #000;
+}
+
+#main-slider .carousel-control-prev {
+    left: 10px;
+}
+
+#main-slider .carousel-control-next {
+    right: 10px;
+}
+
+#main-slider .carousel-indicators {
+    margin: 0;
+    left: 0;
+    width: 100%;
+    bottom: 80px;
+}
+
+
+/* المربعات اللى فى اخار الكرزار */
+.carousel-indicators li {
+
+    background-color: transparent;
+    margin: 0 5px;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.carousel-indicators li.active {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+}
+
+/************************************************/
+
+/* الاوفار لاى للعنصار  */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    vertical-align: middle;
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+    padding: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/***********************************************************/
