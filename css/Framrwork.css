@@ -19,7 +19,7 @@
 
 body {
     text-transform: capitalize;
-    min-height: 4000px;
+    min-height: 2000px;
 }
 
 
@@ -32,6 +32,8 @@ body {
 .paddingMidWindow {}
 
 .magnific {}
+
+.fittext {}
 
 .bounceInRight {}
 
@@ -2373,6 +2375,14 @@ body {
     border-radius: 20px;
 }
 
+.borderRadius-50 {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
 /* End border*/
 
 /* Start position*/
@@ -2482,6 +2492,7 @@ body {
     z-index: 9999;
     overflow: hidden;
 }
+
 .welcomeMessage .fa-close {
     color: #58B5FD;
     position: absolute;
@@ -2491,6 +2502,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
+
 /* End welcomeMessage*/
 
 /* Start Div Loading */
