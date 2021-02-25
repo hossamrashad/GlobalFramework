@@ -170,3 +170,26 @@ $(document).ready(function () {
         $(this).css('paddingTop', ($(window).height() - $('.padding-top').height()) / 2);
     });
 });
+/**************************************************/
+$(function () {
+    $('.tabs-list li').on('click', function () {
+
+        "use strict";
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        $('.content-list > div').hide();
+
+
+        $($(this).data('content')).fadeIn();
+    });
+});
+/*****************************************/
+
+$('.showLang').click(function () {
+
+    "use strict";
+
+    $('.toggleLang').slideToggle();
+
+});
