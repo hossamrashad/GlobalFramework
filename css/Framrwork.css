@@ -10,9 +10,18 @@
 
 /* Start Global */
 * {
+    /*
+     * box-sizing: content-box; == default
+     *
+     * ti is Counts padding & border
+     *
+     * box-sizing: border-box;
+     *
+     * ti is not Counts padding & border
+     * */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
+    /*-o-box-sizing: border-box;*/
     box-sizing: border-box;
 
 }
@@ -2801,16 +2810,619 @@ body {
 /* End elementCenter*/
 
 
-/* Start shadowBox*/
+/* Start shadowBox & text-shadow*/
+/*
+ * box-shadow & text-shadow
+ *
+ * box-shadow: horizontal |  vertical |  blur | spread | color | inset
+ *
+ * text-shadow: horizontal |  vertical |  blur | spread | color | inset
+ *
+ * box-shadow: 0 5px 30px 5px #000 outsed
+ *
+ * text-shadow: 0 5px 30px 5px #000 outsed
+ *
+ * [box-shadow: 0 5px 30px #000]
+ *
+ * [text-shadow: 0 5px 30px #000]
+ * */
 
-.shadowBox {
+
+/* text shadow right */
+
+.textShadow-r-5 {
+    -webkit-text-shadow: 5px 0 5px #000;
+    -moz-text-shadow: 5px 0 5px #000;
+    -o-text-shadow: 5px 0 5px #000;
+    -ms-text-shadow: 5px 0 5px #000;
+    text-shadow: 5px 0 5px #000;
+}
+
+.textShadow-h-r-5 {
     -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
     transition: .4s;
 }
 
-.shadowBox:hover {
+.textShadow-h-r-5:hover {
+    -webkit-box-shadow: 5px 0px 5px #000;
+    ;
+    -moz-box-shadow: 5px 0px 5px #000;
+    ;
+    -o-box-shadow: 5px 0px 5px #000;
+    ;
+    -ms-box-shadow: 5px 0px 5px #000;
+    ;
+    text-shadow: 5px 0px 5px #000;
+    ;
+
+}
+
+
+.textShadow-r-10 {
+    -webkit-box-shadow: 10px 0 30px #000;
+    -moz-box-shadow: 10px 0 30px #000;
+    -o-box-shadow: 10px 0 30px #000;
+    -ms-box-shadow: 10px 0 30px #000;
+    box-shadow: 10px 0 30px #000;
+}
+
+.textShadow-h-r-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-r-10:hover {
+    -webkit-box-shadow: 10px 0 5px #000;
+    -moz-box-shadow: 10px 0 5px #000;
+    -o-box-shadow: 10px 0 5px #000;
+    -ms-box-shadow: 10px 0 5px #000;
+    box-shadow: 10px 0 5px #000;
+}
+
+.textShadow-r-15 {
+    -webkit-box-shadow: 15px 0 5px #000;
+    -moz-box-shadow: 15px 0 5px #000;
+    -o-box-shadow: 15px 0 5px #000;
+    -ms-box-shadow: 15px 0 5px #000;
+    box-shadow: 15px 0 5px #000;
+}
+
+.textShadow-h-r-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-r-15:hover {
+    -webkit-box-shadow: 15px 0 5px #000;
+    -moz-box-shadow: 15px 0 5px #000;
+    -o-box-shadow: 15px 0 5px #000;
+    -ms-box-shadow: 15px 0 5px #000;
+    box-shadow: 15px 0 5px #000;
+}
+
+/* box shadow left */
+.textShadow-l-5 {
+    -webkit-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-l-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-l-5:hover {
+    -webkit-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-l-10 {
+    -webkit-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-l-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-l-10:hover {
+    -webkit-box-shadow: -0px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-l-15 {
+    -webkit-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-l-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-l-15:hover {
+    -webkit-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* box shadow top */
+.textShadow-t-5 {
+    -webkit-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-t-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-t-5:hover {
+    -webkit-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-t-10 {
+    -webkit-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-t-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-y-10:hover {
+    -webkit-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-t-15 {
+    -webkit-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-t-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-t-15:hover {
+    -webkit-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* box shadow button */
+.textShadow-b-5 {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-b-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-b-5:hover {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-b-10 {
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-b-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-b-10:hover {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-b-15 {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.textShadow-h-b-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.textShadow-h-b-15:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* End text shadow  */
+/***********************************/
+/* box shadow right */
+.boxShadow-r-5 {
+    -webkit-box-shadow: 5px 0px 5px rgb(0 0 0);
+    -moz-box-shadow: 5px 0px 5px rgb(0 0 0);
+    -o-box-shadow: 5px 0px 5px rgb(0 0 0);
+    -ms-box-shadow: 5px 0px 5px rgb(0 0 0);
+    text-shadow: 5px 0px 5px rgb(0 0 0);
+
+}
+
+.boxShadow-h-r-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-r-5:hover {
+    -webkit-box-shadow: 5px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 5px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 5px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-r-10 {
+    -webkit-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-r-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-r-10:hover {
+    -webkit-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-r-15 {
+    -webkit-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-r-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-r-15:hover {
+    -webkit-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* box shadow left */
+.boxShadow-l-5 {
+    -webkit-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-l-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-l-5:hover {
+    -webkit-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-l-10 {
+    -webkit-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-l-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-l-10:hover {
+    -webkit-box-shadow: -0px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-l-15 {
+    -webkit-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-l-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-l-15:hover {
+    -webkit-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: -15px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* box shadow top */
+.boxShadow-t-5 {
+    -webkit-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-t-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-t-5:hover {
+    -webkit-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-t-10 {
+    -webkit-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-t-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-y-10:hover {
+    -webkit-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-t-15 {
+    -webkit-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-t-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-t-15:hover {
+    -webkit-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* box shadow button */
+.boxShadow-b-5 {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-b-5 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-b-5:hover {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-b-10 {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-b-10 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-b-10:hover {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-b-15 {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadow-h-b-15 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.boxShadow-h-b-15:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 /* End shadowBox */
@@ -3128,3 +3740,21 @@ body {
 
 
 /* End */
+
+/* Start test-css3 */
+.test-css3 {
+    padding: 10px;
+    background: #eee;
+    border: 5px sloid #ccc;
+    margin: 20px auto;
+    box-shadow: 0 5px 30px #ddd;
+}
+
+.test2-css3 {
+    padding: 10px;
+    background: #eee;
+    border: 5px sloid #ccc;
+    margin: 20px auto;
+}
+
+/* End test-css3*/
