@@ -3764,7 +3764,12 @@ body {
 /* End */
 
 /* Start rotate */
-.rotate10 {
+
+/*
+ *
+ * transform: rotate(10deg); make element round the same
+ * */
+.rotate-r-10 {
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
     -o-transform: rotate(10deg);
@@ -3772,7 +3777,127 @@ body {
     transform: rotate(10deg);
 }
 
-.rotate15 {
+.rotate-r-10-h:hover {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.rotate-r-11 {
+    -webkit-transform: rotate(11deg);
+    -moz-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    transform: rotate(11deg);
+}
+
+.rotate-r-11-h:hover {
+    -webkit-transform: rotate(11deg);
+    -moz-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    transform: rotate(11deg);
+}
+
+.rotate-r-12 {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+
+.rotate-r-12-h:hover {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+
+.rotate-r-13 {
+    -webkit-transform: rotate(13deg);
+    -moz-transform: rotate(13deg);
+    -o-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    transform: rotate(13deg);
+}
+
+.rotate-r-13-h:hover {
+    -webkit-transform: rotate(13deg);
+    -moz-transform: rotate(13deg);
+    -o-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    transform: rotate(13deg);
+}
+
+.rotate-r-14 {
+    -webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -o-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
+    transform: rotate(14deg);
+}
+
+.rotate-r-14-h:hover {
+    -webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -o-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
+    transform: rotate(14deg);
+}
+
+.rotate-r-15 {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.rotate-r-15-h:hover {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.rotate-r-20 {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.rotate-r-20-h:hover {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.rotate-r-25 {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.rotate-r-25-h:hover {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.rotate-r-30 {
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     -o-transform: rotate(30deg);
@@ -3780,7 +3905,7 @@ body {
     transform: rotate(30deg);
 }
 
-.rotate30 {
+.rotate-r-30-h:hover {
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     -o-transform: rotate(30deg);
@@ -3788,15 +3913,112 @@ body {
     transform: rotate(30deg);
 }
 
-
-.rotate360:hover {
-    transition: all 0.9s ease 0s;
-    -webkit-transition: all 0.9s ease 0s;
-    -moz-transition: all 0.9s ease 0s;
-    -o-transition: all 0.9s ease 0s;
+.rotate-r-35 {
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
 }
 
-.rotate360 {
+.rotate-r-35-h:hover {
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.rotate-r-40 {
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.rotate-r-40-h:hover {
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.rotate-r-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rotate-r-45-h:hover {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rotate-r-50 {
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+.rotate-r-50-h:hover {
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+
+.rotate-r-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate-r-90-h:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate-r-180-h:hover {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate-r-360 {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.rotate-r-360-h:hover {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -3806,7 +4028,77 @@ body {
 
 /* End rotate */
 
+/* Start transition */
+.transition-01 {
+    transition: all 0.1s ease 0s;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+}
 
+.transition-02 {
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.transition-03 {
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.transition-04 {
+    transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.transition-05 {
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.transition-06 {
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+}
+
+.transition-07 {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+.transition-08 {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+.transition-09 {
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+}
+
+/* End transition */
 
 /* Start test-css3 */
 .parent {
@@ -3815,14 +4107,26 @@ body {
     border: 5px sloid #000;
     width: 50%;
     margin: 100px auto;
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+}
+
+.parent:hover {
+    /*-webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);*/
 }
 
 
-
-.test2-css3 {
+/*.test2-css3 {
     padding: 10px;
     background: #eee;
     border: 5px sloid #f00;
 }
-
+*/
 /* End test-css3*/
