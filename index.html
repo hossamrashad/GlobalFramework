@@ -55,6 +55,8 @@
 
 
     <!------------------------------------------------->
+    <link rel="stylesheet" href="css/hover/hover.css">
+    <!------------------------------------------------->
 
 
 
@@ -85,7 +87,8 @@
         <div class="row">
 
             <!-- Start col-->
-            <div class="col wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">
+            <div class="col wow fadeInUp shutter-in-horizontal" data-wow-duration="1s" data-wow-offset="100">
+                <button class=" btn btn-lg hvr-shutter-out-horizontal">hossam</button>
                 one of three columns
             </div>
             <!-- End col-->
@@ -146,7 +149,6 @@
         $(function() {
             $("body").niceScroll();
         });
-
     </script>
     <!------------------------------------------------->
     <!-- magnific popup -->
@@ -158,7 +160,6 @@
                 type: 'image'
             });
         });
-
     </script>
 
     <!------------------------------------------------->
@@ -177,7 +178,6 @@
     <script src="js/wow/wow.min.js"></script>
     <script>
         new WOW().init();
-
     </script>
 
     <!------------------------------------------------->
@@ -205,14 +205,20 @@
                 }
             }
         })
-
     </script>
 
 
 
-
+    <script src="js/fittext/jquery.fittext.js"></script>
+    <script>
+        $(function() {
+            'use strict';
+            $(".fittext").fitText(1.7, {
+                minFontSize: '40px',
+                maxFontSize: '300px'
+            });
+        });
+    </script>
     <!------------------------------------------------->
     <script src="js/plugin.js"></script>
-</body>
-
-</html>
+</body></html>

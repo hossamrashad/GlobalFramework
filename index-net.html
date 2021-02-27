@@ -52,13 +52,6 @@
 <body>
 
 
-
-
-
-
-
-
-
     <div class="welcomeMessage">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="img/favicon.jpg" alt="Card image cap">
@@ -71,19 +64,22 @@
         </div>
     </div>
 
-    <br>
-    <br>
-    <br>
 
 
 
 
 
-    <div class="parent rotate-r-360-h transition-09">
-        <div class="">
-            <h2 class="h1 test-css3">Your Site Title</h2>
+
+    <div class="position-r parent  overflow-h parentElementPadding transition-09 ">
+        <div class="child elementPadding  display-b  ">
+            <img class="img-fluid height-100  transition-05 translateY-10px-h" src="img/favicon.jpg">
         </div>
     </div>
+
+
+
+
+
 
 
 
@@ -98,7 +94,6 @@
         $(function() {
             $("body").niceScroll();
         });
-
     </script>
     <!------------------------------------------------->
     <!-- magnific popup -->
@@ -109,7 +104,6 @@
                 type: 'image'
             });
         });
-
     </script>
 
     <!------------------------------------------------->
@@ -124,7 +118,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
-
     </script>
 
     <!------------------------------------------------->
@@ -150,21 +143,20 @@
                 }
             }
         })
-
     </script>
 
 
     <!-- fittext -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js" integrity="sha512-e2WVdoOGqKU97DHH6tYamn+eAwLDpyHKqPy4uSv0aGlwDXZKGwyS27sfiIUT8gpZ88/Lr4UZpbRt93QkGRgpug==" crossorigin="anonymous"></script>
+
     <script>
         $(function() {
             'use strict';
             $(".fittext").fitText(1.7, {
-                minFontSize: '100px',
+                minFontSize: '40px',
                 maxFontSize: '300px'
             });
         });
-
     </script>
 
     <!------------------------------------------------->
@@ -180,6 +172,4 @@
         CKEDITOR.replace('editor1');
 
     </script>-->
-</body>
-
-</html>
+</body></html>

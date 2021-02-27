@@ -193,3 +193,17 @@ $('.showLang').click(function () {
     $('.toggleLang').slideToggle();
 
 });
+/************************************/
+
+
+$(document).ready(function () {
+    'use strict';
+    $(window).resize(function () {
+        $('.elementPadding').each(function () {
+            $(this).css('paddingTop', ($(".parentElementPadding").height() - $('.elementPadding').height()) / 2);
+        });
+    });
+    $('.elementPadding').each(function () {
+        $(this).css('paddingTop', ($(".parentElementPadding").height() - $('.elementPadding').height()) / 2);
+    });
+});
